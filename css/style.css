@@ -1,0 +1,49 @@
+body {
+    background: url("https://www.kizoa.com.br/img/e8nZC.gif");
+    background-size: cover;
+
+    
+
+
+
+}
+#div1 {
+    justify-content: center;
+   text-align: center;
+   color: red; 
+
+}
+
+#div2 {
+    border: 9px solid blue;
+    width: 350px;
+    position: relative;
+    top: 70px;
+    color: black
+
+
+}
+h1{
+    text-shadow: 1px 2px black;
+}
+
+#div3 {
+    border: 9px solid black;
+    width: 350px;
+    position: relative;
+     top: 70px;
+     left: 650px;
+    color: orange
+
+}
+
+#div4 {
+    border: 9px solid orange;
+    width: 350px;
+    position: relative;
+    top: 80px;
+    left: 1400px;
+    color: blue
+}
+
+

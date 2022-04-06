@@ -1,42 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Tarefas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/lib/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="LDT.css"> 
 </head>
-<style>
-    
-    
-
-</style>
 <body>
-    
-
-    <div id="div1">
-        <h1>Clique no link e descubra qual é o youtuber</h1> 
-        <a href="https://i.pinimg.com/originals/78/d6/8a/78d68a5864e2b229374dfc2df66ab31b.jpg" target="_blank"></a>
-
-    </div>
-    
-    <div id="div2">
-       <h1>Primeiro Youtuber</h1>
-       <a href="https://www.youtube.com/c/GamesEduUu" target="_blank"> Youtube </a>
-    </div>
-
-    <div id="div3">
-    <h1>Segundo Youtuber</h1>
-    <a href="https://www.youtube.com/user/CanalCanalha" target="_blank"> Youtube </a>
-    </div>
-    
-       
-    <div id="div4">
-           <h1>Terceiro Youtuber</h1>
-           <a href="https://www.youtube.com/c/canalplayer94" target="_blank"> Youtube </a>
-       </div> 
      
-   
-</body>
+    <div class="conteudo">
+        <div class="topo">
+        <input type="text" 
+        id="inputNovaTarefa"
+        placeholder="Adicione uma nova tarefa"
+        >
+     <button id="btnAddTarefa">
+         <i class="fa fa-plus"></i>
+    </button>
+        </div>
 
+        <ul id="listaTarefas">               
+        </ul>
+    </div>
+
+    <div id="janelaEdicao">
+        <button id="janelaEdicaoBtnFechar">
+            <i class="fa fa-remove fa-2x"></i>
+        </button>
+        <h2 id="idTarefaEdicao">#1021</h2>
+        <hr>
+        <form>
+            <div class="frm-linha">
+                <label for="nome">Nome</label>
+                <input type="text" id="inputTarefaNomeEdicao">
+            </div>
+            <div class="frm-linha">
+                <button id="btnAtualizarTarefa">Salvar</button>
+            </div>
+        </form>
+    </div>
+    <div id="janelaEdicaoFundo"></div>
+
+    <script src="LDT.js"></script>  
+</body>
+</html>
